@@ -1,0 +1,6 @@
+{
+  "name": "rsbuild-mono",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev"
+  }
+}
