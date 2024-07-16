@@ -10,6 +10,10 @@ function main() {
     basename: '/',
     domGetter: '#subApp',
     disablePreloadApp: true,
+    sandbox: {
+      // 解决子应用在微前端环境下的样式热更新（本地）问题
+      disableLinkTransformToStyle: true,
+    },
     apps: [
       {
         name: 'react',
