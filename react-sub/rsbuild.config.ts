@@ -14,6 +14,10 @@ export default defineConfig({
   },
   dev: {
     assetPrefix: true,
+    client: {
+      // host: '127.0.0.1',
+      port: String(3001),
+    },
   },
   tools: {
     rspack: {
